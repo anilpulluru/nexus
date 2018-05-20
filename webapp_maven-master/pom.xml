@@ -74,13 +74,7 @@
 
 	<build>
 		<finalName>WebappSarayuTech</finalName>
-         <distributionManaement>
-		 <snapshotRepository>
-			 <id>deployment</id>
-			 <name>Internal Snapshot Releases</name>
-			 <url>http://192.168.98.139:8081/repository/Webapp-repo1/</url>
-		 </snapshotRepository>
-         </distributionManagement>
+         
 		<plugins>
 		    <!-- Eclipse project -->
 			<plugin>
@@ -117,6 +111,12 @@
 				</configuration>
 			</plugin>
 		</plugins>	 
-       
 	</build>
+	<distributionManaement>
+		 <snapshotRepository>
+			 <id>deployment</id>
+			 <name>Internal Snapshot Releases</name>
+			 <url>http://192.168.98.139:8081/repository/Webapp-repo1/</url>
+		 </snapshotRepository>
+         </distributionManagement>
 </project>
