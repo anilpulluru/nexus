@@ -110,7 +110,9 @@
 					<path>/WebappSarayuTech</path>
 				</configuration>
 			</plugin>
-		</plugins>	 
+		</plugins>	
+	</build>
+	
 	<distributionManaement>
 		 <snapshotRepository>
 			 <id>deployment</id>
@@ -118,5 +120,4 @@
 			 <url>http://192.168.98.139:8081/repository/Webapp-repo1/</url>
 		 </snapshotRepository>
          </distributionManagement>
-	</build>
 </project>
